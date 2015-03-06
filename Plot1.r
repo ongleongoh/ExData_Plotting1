@@ -1,6 +1,6 @@
 ## Course Project 1
 ## Put "household_power_consumption.txt" in local working directory
-setwd("C:/Coursera/Exploratory Data Analysis/Project")
+
 # Read dataset from household_power_consumption.txt into csv
 filename <- "household_power_consumption.txt"
 rt <- read.csv(filename, na="?", header=TRUE, sep=";",
